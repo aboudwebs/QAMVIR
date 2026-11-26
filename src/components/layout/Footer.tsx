@@ -18,7 +18,7 @@ export const Footer: React.FC = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
-  const rawWhatsapp = contactInfo.whatsapp_number || "0930431817";
+  const rawWhatsapp = contactInfo.whatsapp_number || "0951708141";
   const cleanWhatsapp = rawWhatsapp.replace(/[^0-9]/g, "").replace(/^0/, "963");
 
   const whatsappMessage =
