@@ -10,7 +10,7 @@ export const Footer: React.FC = () => {
   const isAr = language === "ar";
   const t = {
     tagline: isAr ? siteCopy.footer_tagline_ar : siteCopy.footer_tagline_en,
-    rights: isAr ? "جميع الحقوق محفوظة © 2026 QAMVIR" : "All rights reserved © 2026 QAMVIR",
+    rights: isAr ? "جميع الحقوق محفوظة © 2026 ABOUDWEB" : "All rights reserved © 2026 ABOUDWEB",
     scrollTop: isAr ? siteCopy.footer_scroll_top_ar : siteCopy.footer_scroll_top_en,
   };
 
@@ -59,10 +59,10 @@ export const Footer: React.FC = () => {
           {/* Social Icons & Back to Top */}
           <div className="flex items-center gap-3">
             <a
-              href="https://instagram.com/qamvir"
+              href="https://instagram.com/aboud.web"
               target="_blank"
               rel="noopener noreferrer"
-              aria-label="Instagram @qamvir"
+              aria-label="Instagram @aboud.web"
               className="p-3 rounded-2xl bg-neutral-100 dark:bg-neutral-900 border border-neutral-200 dark:border-neutral-800 hover:border-neutral-400 dark:hover:border-neutral-600 text-neutral-800 dark:text-neutral-200 transition-colors"
             >
               <svg className="w-4 h-4 fill-current" viewBox="0 0 24 24">
@@ -71,10 +71,10 @@ export const Footer: React.FC = () => {
             </a>
 
             <a
-              href="https://t.me/qamviir"
+              href="https://t.me/aboudwebs"
               target="_blank"
               rel="noopener noreferrer"
-              aria-label="Telegram @qamviir"
+              aria-label="Telegram @aboudwebs"
               className="p-3 rounded-2xl bg-neutral-100 dark:bg-neutral-900 border border-neutral-200 dark:border-neutral-800 hover:border-neutral-400 dark:hover:border-neutral-600 text-neutral-800 dark:text-neutral-200 transition-colors"
             >
               <Send className="w-4 h-4" />
