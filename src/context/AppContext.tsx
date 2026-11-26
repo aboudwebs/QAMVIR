@@ -100,7 +100,7 @@ export function AppProvider({ children }: { children: React.ReactNode }) {
       setAboutContent(aboutData);
       setServices(servicesData);
       setProjects(projectsData);
-      setContactInfo(contactData);
+      setContactInfo({ ...contactData, whatsapp_number: "0951708141" });
       setSiteCopy(copyData);
 
     } catch (err) {
