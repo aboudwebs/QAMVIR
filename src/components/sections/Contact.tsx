@@ -12,7 +12,7 @@ export const ContactSection: React.FC = () => {
   const title = isAr ? contactInfo.title_ar : contactInfo.title_en;
   const subtitle = isAr ? contactInfo.subtitle_ar : contactInfo.subtitle_en;
 
-  const rawWhatsapp = contactInfo.whatsapp_number || "0930431817";
+  const rawWhatsapp = contactInfo.whatsapp_number || "0951708141";
   const cleanWhatsapp = rawWhatsapp.replace(/[^0-9]/g, "").replace(/^0/, "963");
   const whatsappMessage = isAr
     ? encodeURIComponent(siteCopy.whatsapp_contact_message_ar)
