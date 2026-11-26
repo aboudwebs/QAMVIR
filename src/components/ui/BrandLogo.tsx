@@ -24,7 +24,7 @@ export const BrandLogo: React.FC<BrandLogoProps> = ({
           xmlns="http://www.w3.org/2000/svg"
           className="relative w-full h-full drop-shadow-sm transition-transform duration-300 group-hover:scale-105 text-neutral-900 dark:text-white"
           role="img"
-          aria-label="QAMVIR logo"
+          aria-label="ABOUDWEB logo"
           shapeRendering="geometricPrecision"
         >
           <path
@@ -41,7 +41,7 @@ export const BrandLogo: React.FC<BrandLogoProps> = ({
       {showText && (
         <div className="flex flex-col">
           <span className="text-xl font-black tracking-tight text-neutral-950 dark:text-white font-sans leading-none">
-            {language === "ar" ? "QAMVIR" : "QAMVIR"}
+            {language === "ar" ? "ABOUDWEB" : "ABOUDWEB"}
           </span>
           <span className="text-[10px] tracking-widest text-neutral-500 dark:text-neutral-400 font-mono uppercase mt-1">
             {language === "ar" ? "تصميم وتطوير ويب" : "Web Development"}
