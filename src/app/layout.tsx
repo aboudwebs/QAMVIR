@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "QAMVIR | تصميم وتطوير مواقع الويب",
+  title: "ABOUDWEB | تصميم وتطوير مواقع الويب",
   description:
     "نصمم ونطور مواقع ويب عصرية وسريعة، مخصصة لهوية مشروعك بالكامل.",
 };
