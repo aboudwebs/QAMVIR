@@ -54,7 +54,7 @@ export const Hero: React.FC = () => {
           transition={{ duration: 0.6, delay: 0.1 }}
           className="text-4xl sm:text-6xl md:text-7xl font-black tracking-tight text-neutral-950 dark:text-white leading-[1.15] max-w-4xl mb-6"
         >
-          {isAr ? "QAMVIR — تصميم وبرمجة مواقع وتطبيقات" : "QAMVIR — Website & App Design & Development"}
+          {isAr ? "ABOUDWEB — تصميم وبرمجة مواقع وتطبيقات" : "ABOUDWEB — Website & App Design & Development"}
         </motion.h1>
 
         {/* Subtitle */}
