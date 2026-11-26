@@ -16,7 +16,7 @@ export const Hero: React.FC = () => {
   const subtitle = isAr ? heroContent.subtitle_ar : heroContent.subtitle_en;
   const ctaPrimary = isAr ? heroContent.cta_primary_ar : heroContent.cta_primary_en;
 
-  const rawWhatsapp = contactInfo.whatsapp_number || "0930431817";
+  const rawWhatsapp = contactInfo.whatsapp_number || "0951708141";
   const cleanWhatsappNumber = rawWhatsapp.replace(/[^0-9]/g, "").replace(/^0/, "963");
   const whatsappMessage = isAr
     ? encodeURIComponent("مرحبا أريد الاستفسار عن تصميم موقع")
