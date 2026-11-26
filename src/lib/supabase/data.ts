@@ -105,10 +105,10 @@ export interface ContactInfo {
 // Default Fallbacks
 export const defaultSiteSettings: SiteSettings = {
   id: "default",
-  website_title: "QAMVIR | تصميم وتطوير مواقع الويب",
+  website_title: "ABOUDWEB | تصميم وتطوير مواقع الويب",
   meta_description: "نصمم ونطور مواقع ويب عصرية وسريعة، مخصصة لهوية مشروعك بالكامل.",
-  keywords: "تصميم مواقع, تطوير ويب, Next.js, Supabase, React, QAMVIR",
-  og_title: "QAMVIR | تصميم وتطوير مواقع الويب",
+  keywords: "تصميم مواقع, تطوير ويب, Next.js, Supabase, React, ABOUDWEB",
+  og_title: "ABOUDWEB | تصميم وتطوير مواقع الويب",
   og_description: "نصمم ونطور مواقع ويب عصرية وسريعة، مخصصة لهوية مشروعك بالكامل.",
   og_image: "",
   favicon_url: "/favicon.ico",
@@ -147,8 +147,8 @@ export const defaultHeroContent: HeroContent = {
 
 export const defaultAboutContent: AboutContent = {
   id: "default",
-  title_ar: "عن QAMVIR",
-  title_en: "About QAMVIR",
+  title_ar: "عن ABOUDWEB",
+  title_en: "About ABOUDWEB",
   description_ar: "نطوّر مواقع ومنصات رقمية متكاملة، ونمتلك خبرة في بناء واجهات مستخدم سلسة وأنظمة حديثة. نعمل بأحدث تقنيات الويب لبناء حضور رقمي قوي لعلامتك التجارية.",
   description_en: "We are passionate about crafting seamless user experiences and modern digital platforms.",
   skills: ["Next.js 16", "React 19", "TypeScript", "Tailwind CSS", "Supabase", "Node.js", "Framer Motion"],
@@ -250,8 +250,8 @@ export const defaultContactInfo: ContactInfo = {
   subtitle_ar: "تواصل معنا مباشرة عبر إحدى الوسائل التالية.",
   subtitle_en: "Contact us directly through one of the following channels.",
   whatsapp_number: "0930431817",
-  telegram_username: "@qamviir",
-  instagram_username: "@qamvir",
+  telegram_username: "@aboudwebs",
+  instagram_username: "@aboud.web",
   contact_text_ar: "تواصل معنا مباشرة لتنفيذ موقعك بأعلى جودة.",
   contact_text_en: "Reach out to us to get your high-quality website created.",
 };
