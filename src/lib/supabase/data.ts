@@ -249,7 +249,7 @@ export const defaultContactInfo: ContactInfo = {
   title_en: "Let's Build Your Website",
   subtitle_ar: "تواصل معنا مباشرة عبر إحدى الوسائل التالية.",
   subtitle_en: "Contact us directly through one of the following channels.",
-  whatsapp_number: "0930431817",
+  whatsapp_number: "0951708141",
   telegram_username: "@aboudwebs",
   instagram_username: "@aboud.web",
   contact_text_ar: "تواصل معنا مباشرة لتنفيذ موقعك بأعلى جودة.",
