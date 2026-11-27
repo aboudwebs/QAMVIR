@@ -27,7 +27,7 @@ export default function RootLayout({
   return (
     <html lang="ar" dir="rtl" className={`${geistSans.variable} ${geistMono.variable} dark`}>
       <head>
-        <meta name="google-site-verification" content="3MPckXG-oiTMWJcfFwXarWSHZWSdycHqQGPjDWkpHXk" />
+        <meta name="google-site-verification" content="3MPckXG-oiTMWJcfFwXarWSHZWSdycHqQGPjDWkpHXk"/>
       </head>
       <body className="min-h-screen bg-white dark:bg-[#000000] text-neutral-950 dark:text-neutral-100 antialiased font-sans selection:bg-neutral-800 selection:text-white dark:selection:bg-neutral-200 dark:selection:text-black">
         <AppProvider>{children}</AppProvider>
