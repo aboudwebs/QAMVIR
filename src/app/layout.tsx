@@ -17,6 +17,9 @@ export const metadata: Metadata = {
   title: "ABOUDWEB | تصميم وتطوير مواقع الويب",
   description:
     "نصمم ونطور مواقع ويب عصرية وسريعة، مخصصة لهوية مشروعك بالكامل.",
+  verification: {
+    google: "3MPckXG-oiTMWJcfFwXarWSHZWSdycHqQGPjDWkpHXk",
+  },
 };
 
 export default function RootLayout({
