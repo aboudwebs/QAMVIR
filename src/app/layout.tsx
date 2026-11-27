@@ -17,9 +17,6 @@ export const metadata: Metadata = {
   title: "ABOUDWEB | تصميم وتطوير مواقع الويب",
   description:
     "نصمم ونطور مواقع ويب عصرية وسريعة، مخصصة لهوية مشروعك بالكامل.",
-  verification: {
-    google: "3MPckXG-oiTMWJcfFwXarWSHZWSdycHqQGPjDWkpHXk",
-  },
 };
 
 export default function RootLayout({
@@ -29,6 +26,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="ar" dir="rtl" className={`${geistSans.variable} ${geistMono.variable} dark`}>
+      <head>
+        <meta name="google-site-verification" content="3MPckXG-oiTMWJcfFwXarWSHZWSdycHqQGPjDWkpHXk" />
+      </head>
       <body className="min-h-screen bg-white dark:bg-[#000000] text-neutral-950 dark:text-neutral-100 antialiased font-sans selection:bg-neutral-800 selection:text-white dark:selection:bg-neutral-200 dark:selection:text-black">
         <AppProvider>{children}</AppProvider>
       </body>
